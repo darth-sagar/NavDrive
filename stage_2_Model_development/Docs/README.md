@@ -88,7 +88,9 @@ Once a satisfactory loss level is achieved, save the trained model.
 - Final layer outputs a single steering angle
 
 Ensure the architecture matches what’s defined in code.
-1[](/stage_2_Model_development/Docs/Model%20Architecture/model_architecture.png)
+
+![](/stage_2_Model_development/Docs/Model%20Architecture/model_architecture.png)
+
 ---
 
 6. MODEL EXPORT TO TFLITE

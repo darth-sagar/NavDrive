@@ -38,13 +38,12 @@ Ensure all components are tested individually before moving to full integration.
 
 Follow the diagrams provided in:
 
-📁 `diagram/`
+📁 `Diagram/`
 
-- `Ardiuno.png` 
-- `Raspberry_pi.png`: Full schematic of all hardware connections and Shows which pins connect to what (on both Arduino and Pi)
+Full schematic of all hardware connections and Shows which pins connect to what (on both Arduino and Pi)
 here they are 
-![]()
-![]()
+![](/stage_1_data_collection/Docs/Diagram/Ardiuno.png)
+![](/stage_1_data_collection/Docs/Diagram/Raspberry_pi.png)
 
 -----------------------------------------------
 3. CUSTOM TRACK SETUP FOR DATA COLLECTION

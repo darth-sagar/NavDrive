@@ -58,7 +58,7 @@ Project build photos can be found in:
 
 Check full project PPT and design docs here:
 
-📁 [`/docs/`](./docs/)
+📁 [`/docs/`](./Docs/)
 
 ---
 
@@ -84,7 +84,6 @@ Check full project PPT and design docs here:
 
 👤 **Sagar Saini**  
 📧 Email: [sagarsaini9531@gmail.com]  
-🌐 GitHub: [github.com/darth-sagar](https://github.com/darth-sagar)
 
 ---
 

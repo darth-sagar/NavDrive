@@ -26,8 +26,9 @@ After collecting data on the Raspberry Pi during Phase 1:
 Since the image paths in `data.csv` are configured for the Raspberry Pi, update them to match your PC directory structure.
 
 ✔️ Example:
-Old path → `/home/pi/NavDrive/stage_1_data_collection/dataset/raw_images/img1.jpg`
-New path → `C:/NavDrive/dataset/raw_images/img1.jpg`
+
+- Old path → `/home/pi/NavDrive/stage_1_data_collection/dataset/raw_images/img1.jpg`
+- New path → `C:/NavDrive/dataset/raw_images/img1.jpg`
 
 You can automate this using a Python script
 
@@ -41,7 +42,7 @@ Ensure the modified `data.csv` is saved and verified before proceeding.
 
 Open the Jupyter Notebook from:
 
-📁 `Model.ipynb`
+ `Model.ipynb`
 
 This notebook includes:
 
@@ -103,5 +104,3 @@ This lightweight model is used in Stage 3 on the Raspberry Pi.
 
 ---
 
-
-# End of README — Phase 2: Model Development

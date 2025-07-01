@@ -14,8 +14,7 @@ This phase covers the process of transferring collected data from the Raspberry 
 After collecting data on the Raspberry Pi during Phase 1:
 
 1. Connect the Raspberry Pi to your PC via USB or network (SSH/SCP).
-2. Transfer the entire dataset directory from Raspberry pi
-   to your PC location
+2. Transfer the entire dataset directory from Raspberry pi to your PC location
 
 ---
 
@@ -51,6 +50,10 @@ This notebook includes:
 - Data cleaning
 - Normalization of sensor inputs
 - Visualization of steering angles and sensor data
+
+or follow this :
+
+![](/stage_2_Model_development/Docs/assets/Data_collection.png)
 
 Run the cells step-by-step to verify the data integrity.
 

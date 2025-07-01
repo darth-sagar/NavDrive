@@ -1,5 +1,6 @@
-
+-----------------------------------------
 NAVDRIVE - STAGE 1: DATA COLLECTION
+-----------------------------------------
 
 📍 OVERVIEW:
 This phase focuses on preparing the hardware setup and collecting data from manual driving. The collected data will later be used to train a steering prediction model.
@@ -41,6 +42,9 @@ Follow the diagrams provided in:
 
 - `Ardiuno.png` 
 - `Raspberry_pi.png`: Full schematic of all hardware connections and Shows which pins connect to what (on both Arduino and Pi)
+here they are 
+![]()
+![]()
 
 -----------------------------------------------
 3. CUSTOM TRACK SETUP FOR DATA COLLECTION

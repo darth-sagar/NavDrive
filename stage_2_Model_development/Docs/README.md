@@ -42,7 +42,7 @@ Ensure the modified `data.csv` is saved and verified before proceeding.
 
 Open the Jupyter Notebook from:
 
- `Model.ipynb`
+`Model.ipynb`
 
 This notebook includes:
 
@@ -77,6 +77,12 @@ Model is trained for multiple epochs and performance is logged.
 
 Once a satisfactory loss level is achieved, save the trained model.
 
+📊 Sample Training Loss Curve:
+![](/stage_2_Model_development/Docs/assets/loss.png)
+
+🧠 Sample Predicted Output:
+![](/stage_2_Model_development/Docs/assets/sample.png)
+
 ---
 
 5. MODEL ARCHITECTURE
@@ -89,7 +95,7 @@ Once a satisfactory loss level is achieved, save the trained model.
 
 Ensure the architecture matches what’s defined in code.
 
-![](/stage_2_Model_development/Docs/Model%20Architecture/model_architecture.png)
+![](/stage_2_Model_development/Docs/assets/model_architecture.png)
 
 ---
 
@@ -105,4 +111,3 @@ The output model:
 This lightweight model is used in Stage 3 on the Raspberry Pi.
 
 ---
-

@@ -1,6 +1,6 @@
----
-
-## NAVDRIVE - STAGE 2: MODEL DEVELOPMENT
+------------
+NAVDRIVE - STAGE 2: MODEL DEVELOPMENT
+------------
 
 📍 OVERVIEW:
 This phase covers the process of transferring collected data from the Raspberry Pi to a PC, preparing it for training, developing a neural network model, and finally converting it into a TensorFlow Lite (TFLite) model for Raspberry Pi deployment.

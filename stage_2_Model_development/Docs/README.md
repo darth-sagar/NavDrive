@@ -31,6 +31,8 @@ Since the image paths in `data.csv` are configured for the Raspberry Pi, update 
 
 You can automate this using a Python script
 
+and here is it : `./assets/batch_path_converter.py`
+
 Ensure the modified `data.csv` is saved and verified before proceeding.
 
 ---

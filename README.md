@@ -58,7 +58,7 @@ Project build photos can be found in:
 
 Check full project PPT and design docs here:
 
-📁 [`/docs/`](./docs/)
+📁 [`/docs/`](./Docs/)
 
 ---
 

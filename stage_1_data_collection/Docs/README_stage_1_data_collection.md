@@ -90,7 +90,7 @@ timestamp, image_path, steering_angle, front_distance, rear_distance, imu_x, imu
 5. OUTPUT EXAMPLE
 -----------------------------------------------
 
-After one successful session:
+``After one successful session:
 stage_1_data_collection/
 ├── dataset/
 │   ├── raw_images/
@@ -105,7 +105,7 @@ stage_1_data_collection/
 ├── diagram/
 │   ├── wiring_diagram.png
 │   └── pin_mapping.png
-└── README.txt
+└── README.txt``
 
 -----------------------------------------------
 6. TIPS FOR HIGH-QUALITY DATA

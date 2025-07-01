@@ -1,7 +1,7 @@
 
-====================================================
+----------------------------------------
 NAVDRIVE - STAGE 3: IMPLEMENTATION
-====================================================
+----------------------------------------
 
 📍 OVERVIEW:
 This phase involves deploying the trained TFLite model on the Raspberry Pi and running real-time inference based on live camera input. The predicted steering values are then sent to the Arduino over serial communication to control the movement of the car.
@@ -12,16 +12,13 @@ This phase involves deploying the trained TFLite model on the Raspberry Pi and r
 
 Steps:
 1. Copy the trained TFLite model from PC to Raspberry Pi:
-   - Source: `stage_2_model_training/model/model.tflite`
-   - Destination: `/home/pi/NavDrive/stage_3_implementation/model/model.tflite`
 
 2. Place the following scripts on the Pi:
    - `main.py` — handles camera input, model inference, and serial transmission
-   - `steering_controller.py` — formats and sends commands via serial
 
 Ensure that all required Python dependencies are installed on the Pi:
 ```bash
-pip install tflite-runtime opencv-python pyserial numpy
+pip install tflite-runtime opencv-python pyserial numpy libcamera-2 pandas 
 ```
 
 ----------------------------------------------------
@@ -73,25 +70,9 @@ On the Arduino:
 📁 Example File:
 - `navdrive_manual_mode.ino` can be adapted to include `Serial.read()` and control motors
 
-----------------------------------------------------
-5. OUTPUT EXAMPLE
-----------------------------------------------------
-
-After successful implementation:
-stage_3_implementation/
-├── model/
-│   └── model.tflite
-├── raspberry_pi/
-│   ├── main.py
-│   └── steering_controller.py
-├── arduino/
-│   └── navdrive_autonomous.ino
-├── docs/
-│   └── system_architecture.png
-└── README.txt
 
 ----------------------------------------------------
-6. FINAL NOTES
+5. FINAL NOTES
 ----------------------------------------------------
 
 ✅ Make sure both Raspberry Pi and Arduino are powered correctly
@@ -99,6 +80,3 @@ stage_3_implementation/
 ✅ Test in a safe area before running on full-speed tracks
 ✅ Consider adding a kill switch or emergency stop
 
-----------------------------------------------------
-End of README — Phase 3: Implementation
-====================================================

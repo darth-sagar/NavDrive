@@ -1,7 +1,5 @@
 
-===============================================
 NAVDRIVE - STAGE 1: DATA COLLECTION
-===============================================
 
 📍 OVERVIEW:
 This phase focuses on preparing the hardware setup and collecting data from manual driving. The collected data will later be used to train a steering prediction model.
@@ -13,17 +11,18 @@ This phase focuses on preparing the hardware setup and collecting data from manu
 Gather the following components before beginning:
 
 🔌 Required Components:
-- Raspberry Pi 3B
+- Raspberry Pi 3B(or better model or just get a jetson nano)
 - Pi Camera Module
-- Arduino Uno / Nano
+- Arduino Uno
+- Arduino Uno Shield V5 Expansion Board
+- Servo Motor SG90
 - CT6B Transmitter + Receiver
-- 2 x Ultrasonic Sensors (Front & Rear)
-- MPU6050 (IMU Sensor)
 - Motor Driver (L293D or compatible shield)
 - DC Gear Motors with wheels
 - Chassis/Base
 - 11.1V 3S LiPo Battery (Motor Power)
-- Power bank (Raspberry Pi)
+- LM2596S DC-DC Buck Converter Module
+- XL4015E1 DC-DC Buck Converter Module
 - Jumper Wires, Breadboard or PCB
 - USB cable (Arduino to Pi)
 
@@ -40,18 +39,8 @@ Follow the diagrams provided in:
 
 📁 `diagram/`
 
-- `wiring_diagram.png`: Full schematic of all hardware connections
-- `pin_mapping.png`: Shows which pins connect to what (on both Arduino and Pi)
-
-Basic connections include:
-- Pi Camera → Raspberry Pi CSI port
-- Ultrasonic sensors → Arduino digital pins (Trig & Echo)
-- MPU6050 → Arduino I2C (SDA, SCL)
-- CT6B Receiver → Arduino PWM input pins
-- Motor Driver → Arduino + Motors
-- Arduino → Raspberry Pi (via USB Serial or UART)
-
-Secure all components on your chassis to avoid disconnection during movement.
+- `Ardiuno.png` 
+- `Raspberry_pi.png`: Full schematic of all hardware connections and Shows which pins connect to what (on both Arduino and Pi)
 
 -----------------------------------------------
 3. CUSTOM TRACK SETUP FOR DATA COLLECTION
@@ -69,6 +58,7 @@ Outdoor Ideas:
 Make sure:
 - The track simulates real-world driving conditions
 - There's enough space to make wide turns
+- The Track should be 2 times wide the original car chasis or less 
 
 -----------------------------------------------
 4. DATA COLLECTION PROCESS
@@ -80,31 +70,34 @@ Make sure:
 📟 Arduino reads CT6B PWM signals (steering input), ultrasonic distance, and IMU data
 
 📁 Data saved:
-- Images → `/dataset/raw_images/`
+- Images → `/dataset/images/`
 - Sensor data + labels → `/dataset/data.csv`
 
 Each row in `data.csv` will include:
-timestamp, image_path, steering_angle, front_distance, rear_distance, imu_x, imu_y, imu_z
+timestamp, image_path, steering_angle, 
 
 -----------------------------------------------
 5. OUTPUT EXAMPLE
 -----------------------------------------------
 
 ```After one successful session:
-stage_1_data_collection/
-├── dataset/
-│   ├── raw_images/
+data_runs/
+├── run-0001/
+│   ├── images/
 │   │   ├── 20250701_123455.jpg
 │   │   └── ...
 │   └── data.csv
-├── arduino/
-│   └── data_collector.ino
+├── run-0002/
+│   ├── images/
+│   │   ├── 20250701_123455.jpg
+│   │   └── ...
+│   └── data.csv
+.
+.
+.
 ├── raspberry_pi/
 │   ├── collect_data.py
 │   └── ...
-├── diagram/
-│   ├── wiring_diagram.png
-│   └── pin_mapping.png
 └── README.txt```
 
 -----------------------------------------------
@@ -113,10 +106,8 @@ stage_1_data_collection/
 
 ✅ Vary lighting conditions (dim, bright)
 ✅ Drive at different speeds and styles
-✅ Collect at least 5000–10,000 frames
+✅ Collect at least 5000–10,000 Images(i Took almost 30,000)
 ✅ Avoid sudden jerks while driving
 ✅ Label or remove corrupt/blank frames
 
------------------------------------------------
-End of README — Phase 1: Data Collection
-===============================================
+

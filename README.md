@@ -77,6 +77,8 @@ Check full project PPT and design docs here:
 
 - [Raspberry Pi Controlled RC Car](https://youtube.com/playlist?list=PLBOR4EkbOQUcWIBeEX18JCNEuI2duvipk&si=3MRvOiMpJ9jW0Hu2)
 - [OpenCV Neural Network Self driving Car using Neural Network](https://youtube.com/playlist?list=PLMoSUbG1Q_r9h_imTd2xYCT5udwDMU-sa&si=sHZwSKlA2JtqpozQ)
+- [Self Driving Robot Car with traffic Sign Detection| Using OpenCV, Raspberry pi and ESP32](https://youtu.be/TRhhV0wUqsY?si=W5YdkAo1iAmRCspn)
+- [Self Driving car using Raspberry Pi and Open CV | Lane Detection | Autonomous Driving](https://youtu.be/KnkEJL3IH1Q?si=6BlFHcheMwUkQ018)
 
 ---
 

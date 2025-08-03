@@ -1,6 +1,6 @@
 # 🚗 NavDrive - Autonomous Car Project
 
-NavDrive is a real-time autonomous driving system built using Raspberry Pi, Arduino, and Deep Learning. It captures driving data, trains a CNN to predict steering angles from camera images, and deploys the model for autonomous driving on custom tracks.
+NavDrive is a real-time autonomous car driving system built using Raspberry Pi, Arduino, and Deep Learning. It captures driving data, trains a CNN to predict steering angles from camera images, and deploys the model for autonomous driving on custom tracks.
 
 ---
 

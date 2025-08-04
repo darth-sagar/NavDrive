@@ -64,7 +64,7 @@ Check full project PPT and design docs here:
 
 ## 🛠️ Requirements
 
-- Raspberry Pi 3B(or later version)
+- Raspberry Pi 3B(or later version and jetson nano is preferred)
 - Pi Camera
 - Arduino Uno/Nano
 - CT6B Transmitter and Receiver

@@ -108,10 +108,10 @@ data_runs/
 6. TIPS FOR HIGH-QUALITY DATA
 -----------------------------------------------
 
-✅ Vary lighting conditions (dim, bright)
-✅ Drive at different speeds and styles
-✅ Collect at least 5000–10,000 Images(i Took almost 30,000)
-✅ Avoid sudden jerks while driving
-✅ Label or remove corrupt/blank frames
+-✅ Vary lighting conditions (dim, bright)    
+-✅ Drive at different speeds and styles  
+-✅ Collect at least 5000–10,000 Images(i Took almost 30,000)  
+-✅ Avoid sudden jerks while driving  
+-✅ Label or remove corrupt/blank frames  
 
 

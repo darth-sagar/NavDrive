@@ -18,7 +18,8 @@ Steps:
 2. Place the following scripts on the Pi:
    - `main.py` — handles camera input, model inference, and serial transmission
 
-Ensure that all required Python dependencies are installed on the Pi:
+Ensure that all required Python dependencies are installed on the Pi
+For Dependencies follow the requirement in the `docs` :
 
 ```bash
 pip install tflite-runtime opencv-python pyserial numpy libcamera-2 pandas

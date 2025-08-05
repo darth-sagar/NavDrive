@@ -2,7 +2,7 @@
 
 ## NAVDRIVE - STAGE 3: IMPLEMENTATION
 
-📍 OVERVIEW:
+📍 OVERVIEW
 This phase involves deploying the trained TFLite model on the Raspberry Pi and running real-time inference based on live camera input. The predicted steering values are then sent to the Arduino over serial communication to control the movement of the car.
 
 ---

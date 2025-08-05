@@ -101,7 +101,8 @@ data_runs/
 ├── raspberry_pi/
 │   ├── collect_data.py
 │   └── ...
-└── README.txt```
+└── README.txt
+```
 
 -----------------------------------------------
 6. TIPS FOR HIGH-QUALITY DATA

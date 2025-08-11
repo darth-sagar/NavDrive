@@ -84,7 +84,6 @@ Check full project PPT and design docs here:
 
 ## 📬 Contact
 
-👤 **Sagar Saini**  
 📧 Email: [sagarsaini9531@gmail.com]  
 
 ---

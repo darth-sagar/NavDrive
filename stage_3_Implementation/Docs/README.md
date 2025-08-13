@@ -17,13 +17,20 @@ Steps:
 
 2. Place the following scripts on the Pi:
    - `main.py` — handles camera input, model inference, and serial transmission
-
-Ensure that all required Python dependencies are installed on the Pi
-For Dependencies follow the requirement in the `docs` :
+3. Make a virtual environment and activate it:
 
 ```bash
-pip install tflite-runtime opencv-contrib-python pyserial numpy libcamera-2 pandas
+raspberrypi@raspberrypi:~ $ python3 -m venv myenv
+raspberrypi@raspberrypi:~ $ source myenv/bin/activate
 ```
+4. Install required Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+For Dependencies follow the `requirement.txt` in the `docs` :
+
 
 ---
 
@@ -35,6 +42,7 @@ Once the setup is ready:
 
 1. Attach the Pi Camera to the CSI port
 2. Run the script:
+3. Activate the virtual environment if not already done:
 
 ```bash
 python3 main.py

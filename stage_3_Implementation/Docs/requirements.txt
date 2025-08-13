@@ -1,0 +1,7 @@
+python==3.9.18
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+tflite==2.14.0
+picamera==1.13.1
+picamera2==1.0.3
+pandas==2.1.3

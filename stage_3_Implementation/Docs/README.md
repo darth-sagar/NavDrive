@@ -22,7 +22,7 @@ Ensure that all required Python dependencies are installed on the Pi
 For Dependencies follow the requirement in the `docs` :
 
 ```bash
-pip install tflite-runtime opencv-python pyserial numpy libcamera-2 pandas
+pip install tflite-runtime opencv-contrib-python pyserial numpy libcamera-2 pandas
 ```
 
 ---

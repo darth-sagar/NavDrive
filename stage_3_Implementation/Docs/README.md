@@ -14,7 +14,7 @@ This phase involves deploying the trained TFLite model on the Raspberry Pi and r
 Steps:
 
 1. Copy the trained TFLite model from PC to Raspberry Pi:
-
+    - use pyenv to create a virtual environment and install the python==3.9.18 for the Raspberry Pi
 2. Place the following scripts on the Pi:
    - `main.py` — handles camera input, model inference, and serial transmission
 3. Make a virtual environment and activate it:

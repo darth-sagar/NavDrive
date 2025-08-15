@@ -45,8 +45,10 @@ steps:
 2. Upload the Arduino sketch to handle serial communication and motor control
 3. Use the Arduino IDE or command line to upload the sketch:
    - Ensure the Arduino is set to listen on Serial at baud rate: **115200**
+   - Ensure Serial communication is established (e.g., `/dev/ttyUSB0`)
    - Arduino sketch snippet - [`Arduino.ino`](../Arduino_code/Arduino.ino)
-3. Ensure the Arduino is set to listen on the correct serial port 
+4. Ensure the Arduino is set to listen on the correct serial port 
+
 
 
 ---
@@ -83,31 +85,7 @@ Note :
 it should look like this :
 ![](/stage_3_Implementation/Docs/assets/sample.png)
 
----
 
-3. SERIAL COMMUNICATION WITH ARDUINO
-
----
-
-The predicted value is transmitted from Raspberry Pi to Arduino via USB (serial communication).
-
-🛠️ Setup:
-
-- Arduino listens on Serial at baud rate: **115200**
-- Raspberry Pi sends steering values using:
-
-```python
-serial.write(f"{angle}\n".encode())
-```
-
-✔️ Ensure:
-
-- The Arduino is connected via USB (e.g., `/dev/ttyUSB0`)
-- Arduino sketch is uploaded and listening via:
-
-```cpp
-Serial.begin(115200);
-```
 
 ---
 

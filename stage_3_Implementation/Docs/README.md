@@ -45,7 +45,7 @@ steps:
 2. Upload the Arduino sketch to handle serial communication and motor control
 3. Use the Arduino IDE or command line to upload the sketch:
    - Ensure the Arduino is set to listen on Serial at baud rate: **115200**
-   - Arduino sketch snippet - ![`Arduino.ino`](../Arduino_code/Arduino.ino)
+   - Arduino sketch snippet - [`Arduino.ino`](../Arduino_code/Arduino.ino)
 3. Ensure the Arduino is set to listen on the correct serial port 
 
 
